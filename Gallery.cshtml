@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Gallery";
+    Layout = "~/Views/Shared/IndeLayout.cshtml";
+}
+
+<div class="spacial-controls">
+    <div class="search-switch"><img src="~/Content/img/search-icon.png" alt=""></div>
+    <div class="nav-switch-warp">
+        <div class="nav-switch">
+            <div class="ns-bar"></div>
+        </div>
+    </div>
+</div>
+
+<div class="page-section home-page">
+    <ul class="portfolio-filter">
+        <li class="filter all active" data-filter="*">All</li>
+        <li class="filter" data-filter=".photo">Photography</li>
+        <li class="filter" data-filter=".nature">Nature</li>
+        <li class="filter" data-filter=".love">Love</li>
+        <li class="filter" data-filter=".animals">Animals</li>
+    </ul>
+    <div class="portfolio-gallery">
+        <div class="gallery-item animals">
+            <img src="~/Content/img/gallery/1.jpg" alt="">        
+            <div class="hover-links">
+                <a href="" class="site-btn sb-light">Next</a>
+            </div>
+        </div>
+        <div class="gallery-item nature">
+            <img src="~/Content/img/gallery/2.jpg" alt="">
+            <div class="hover-links">
+                <a href="" class="site-btn sb-light">Next</a>
+            </div>
+        </div>
+        <div class="gallery-item love">
+            <img src="~/Content/img/gallery/3.jpg" alt="">
+            <div class="hover-links">
+                <a href="" class="site-btn sb-light">Next</a>
+            </div>
+        </div>
+        <div class="gallery-item photo">
+            <img src="~/Content/img/gallery/5.jpg" alt="">
+            <div class="hover-links">
+                <a href="" class="site-btn sb-light">Next</a>
+            </div>
+        </div>
+        <div class="gallery-item nature">
+            <img src="~/Content/img/gallery/6.jpg" alt="">
+            <div class="hover-links">
+                <a href="" class="site-btn sb-light">Next</a>
+            </div>
+        </div>
+        <div class="gallery-item photo">
+            <img src="~/Content/img/gallery/4.jpg" alt="">
+            <div class="hover-links">
+                <a href="" class="site-btn sb-light">Next</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
